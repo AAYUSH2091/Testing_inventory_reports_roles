@@ -1,0 +1,58 @@
+all_gathered_resources:
+    device_info:
+        account.smart_account: <none>
+        account.virtual_account: <none>
+        agent.version: 5.9.18_rel/75
+        ansible_network_os: cisco.ios.ios
+        build_info:
+            compiled_by: mcpre
+            compiled_date: Wed 13-Dec-23 21:43
+        config_register: 8450
+        data_privacy.hostname_privacy: DISABLED
+        data_privacy.version_privacy: DISABLED
+        detailed_info:
+            detailed_version: 17.13.1a
+            product: Virtual XE Software (X86_64_LINUX_IOSD-UNIVERSALK9-M)
+        device_name: ios
+        hardware:
+            model: ' Cisco C8000V'
+            processor: VXE
+            serial_number: 9MQ1VO4W4H7
+        last_reload_reason: Critical software exception, system report at bootflash:core/inserthostname-here-system-report_20250812-120940-UTC.tar.gz
+        license:
+            smart_licensing: Smart Licensing Using Policy
+            type: Perpetual
+        license_conversion.enabled: true
+        license_overall.status: NOT INSTALLED
+        memory:
+            bootflash: 5234688K
+            free_mb: 1826927.875
+            nvram: 32768K
+            physical: 3960676K
+            total_mb: 2017116.1796875
+        miscellaneous.custom_id: <empty>
+        policy.ack_required: yes (CISCO default)
+        policy.in_use: Merged from multiple sources.
+        product_info.pid: C8000V
+        product_info.serial: 9MQ1VO4W4H7
+        reload_reason: reload
+        smart_licensing.status: ENABLED
+        system_image: bootflash:packages.conf
+        transport.type: cslu
+        transport.vrf: <empty>
+        version: 17.13.01a
+    interfaces:
+    -   description: Management / WAN Interface
+        enabled: true
+        name: GigabitEthernet1
+    -   enabled: false
+        name: GigabitEthernet2
+    -   enabled: false
+        name: GigabitEthernet3
+    -   enabled: false
+        name: GigabitEthernet4
+    l2_interfaces:
+    -   name: GigabitEthernet1
+    -   name: GigabitEthernet2
+    -   name: GigabitEthernet3
+    -   name: GigabitEthernet4

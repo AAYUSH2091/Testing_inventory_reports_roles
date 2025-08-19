@@ -1,0 +1,65 @@
+all_gathered_resources:
+    device_info:
+        ansible_network_os: arista.eos.eos
+        build_info:
+            internal_build_id: 2f026fab-f3ea-4171-9e76-42c5c3dedf3e
+            internal_build_version: 4.24.6M-22486697.4246M
+        device_name: eos-switch
+        hardware:
+            mac_address: 5254.00d9.190b
+        memory:
+            free_mb: 1258.375
+            total_mb: 1967.21484375
+        system:
+            architecture: i686
+            mac_address: 5254.00d9.190b
+        uptime:
+            days: 0
+            hours: 3
+            minutes: 8
+            weeks: 1
+        version: 4.24.6M
+    interfaces:
+    -   enabled: true
+        mode: layer3
+        name: Ethernet1
+    -   enabled: true
+        mode: layer3
+        name: Ethernet2
+    -   enabled: true
+        name: Ethernet3
+    -   enabled: true
+        name: Ethernet4
+    -   enabled: true
+        name: Ethernet5
+    -   enabled: true
+        name: Ethernet6
+    -   enabled: true
+        name: Ethernet7
+    -   enabled: true
+        name: Ethernet8
+    -   enabled: true
+        name: Ethernet9
+    -   enabled: true
+        name: Ethernet10
+    -   enabled: true
+        name: Ethernet11
+    -   enabled: true
+        name: Ethernet12
+    -   description: Management Interface
+        enabled: true
+        name: Management1
+    l2_interfaces:
+    -   name: Ethernet1
+    -   name: Ethernet2
+    -   name: Ethernet3
+    -   name: Ethernet4
+    -   name: Ethernet5
+    -   name: Ethernet6
+    -   name: Ethernet7
+    -   name: Ethernet8
+    -   name: Ethernet9
+    -   name: Ethernet10
+    -   name: Ethernet11
+    -   name: Ethernet12
+    -   name: Management1
